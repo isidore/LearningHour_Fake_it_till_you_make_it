@@ -1,11 +1,11 @@
 def fizz_buzz(param):
     #list= [1]
 
-    start = 1
+    i = 0
     fizzbuzz_string = ""
-    i = start
+    i = i+1
     fizzbuzz_string += calculate_number(i)
-    i= start + 1
+    i= i + 1
     fizzbuzz_string += calculate_number(i)
     return fizzbuzz_string + "Fizz,4,Buzz,Fizz,7,8,Fizz,Buzz,11,Fizz,13,14,FizzBuzz,16,17,Fizz,19,Buzz,Fizz,22,23,Fizz,Buzz,26,Fizz,28,29,FizzBuzz,31,32"
 
