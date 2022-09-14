@@ -1,9 +1,8 @@
 def fizz_buzz(param):
     fizzbuzz_string = ""
-    list = range(1,19+1)
+    list = range(1,20+1)
     for j in list:
         fizzbuzz_string += calculate_number(j)
-    fizzbuzz_string += calculate_number(20)
     return fizzbuzz_string + "Fizz,22,23,Fizz,Buzz,26,Fizz,28,29,FizzBuzz,31,32"
 
 
