@@ -8,7 +8,7 @@ def fizz_buzz(param):
 
 
 def calculate_number(number):
-    if number == 3 or number == 6:
+    if number % 3 == 0:
         return "Fizz,"
     if number == 5:
         return "Buzz,"
