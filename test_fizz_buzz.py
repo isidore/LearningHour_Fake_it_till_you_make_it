@@ -1,5 +1,5 @@
 def fizz_buzz(param):
-    list = [1, 2]
+    list = range(1,3)
 
     i = 0
     fizzbuzz_string = ""
