@@ -3,13 +3,15 @@ def fizz_buzz(param):
     list = range(1,5)
     for j in list:
         fizzbuzz_string += calculate_number(j)
-    fizzbuzz_string += "Buzz,"
+    fizzbuzz_string += calculate_number(5)
     return fizzbuzz_string +"Fizz,7,8,Fizz,Buzz,11,Fizz,13,14,FizzBuzz,16,17,Fizz,19,Buzz,Fizz,22,23,Fizz,Buzz,26,Fizz,28,29,FizzBuzz,31,32"
 
 
 def calculate_number(number):
     if number == 3:
         return "Fizz,"
+    if number == 5:
+        return "Buzz,"
     return f"{number},"
 
 def test_fizz_buzz():
