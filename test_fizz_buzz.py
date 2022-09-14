@@ -1,8 +1,7 @@
 def fizz_buzz(param):
-    list = range(1,3)
-
     i = 0
     fizzbuzz_string = ""
+    list = range(1,3)
     for j in list:
         i = i+1
         fizzbuzz_string += calculate_number(i)
