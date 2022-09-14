@@ -1,6 +1,6 @@
 def fizz_buzz(param):
     fizzbuzz_string = ""
-    list = range(1,32+1)
+    list = range(1,param+1)
     for j in list:
         fizzbuzz_string += calculate_fizz_buzz_for_number(j)
     return fizzbuzz_string[:-1]
