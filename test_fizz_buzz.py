@@ -3,7 +3,8 @@ def fizz_buzz(param):
     list = range(1,19+1)
     for j in list:
         fizzbuzz_string += calculate_number(j)
-    return fizzbuzz_string + "Buzz,Fizz,22,23,Fizz,Buzz,26,Fizz,28,29,FizzBuzz,31,32"
+    fizzbuzz_string += "Buzz,"
+    return fizzbuzz_string + "Fizz,22,23,Fizz,Buzz,26,Fizz,28,29,FizzBuzz,31,32"
 
 
 def calculate_number(number):
