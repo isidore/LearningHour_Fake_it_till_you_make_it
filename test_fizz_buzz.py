@@ -12,7 +12,7 @@ def calculate_number(number):
         return "FizzBuzz,"
     if number % 3 == 0:
         return "Fizz,"
-    if number == 5 or number == 10 or number == 20:
+    if number % 5 == 0:
         return "Buzz,"
     return f"{number},"
 
