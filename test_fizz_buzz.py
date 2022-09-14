@@ -7,7 +7,7 @@ def fizz_buzz(param):
 
 
 def calculate_fizz_buzz_for_number(number):
-    if number == 15 or number == 30:
+    if number % 15 == 0:
         return "FizzBuzz,"
     if number % 3 == 0:
         return "Fizz,"
