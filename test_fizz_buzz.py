@@ -1,8 +1,8 @@
 def fizz_buzz(param):
     #list= [1]
-    i = 1
 
     fizzbuzz_string = ""
+    i = 1
     fizzbuzz_string += calculate_number(i)
     i=2
     fizzbuzz_string += calculate_number(i)
